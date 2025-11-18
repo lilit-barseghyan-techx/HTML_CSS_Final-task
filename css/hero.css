@@ -3,6 +3,9 @@
   align-items: center;
   justify-content: space-between;
   gap: 103px;
+  max-width: 1440px;
+  margin: 0 auto;
+
 }
 
 /* LEFT SIDE */
