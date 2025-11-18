@@ -1,22 +1,22 @@
 /* SECTION */
 .destinations {
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: var(--gray_background);
 }
 
 .destinations__title {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 /* GRID */
 .destinations__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  gap: 2rem;
   margin: 0 auto;
   padding-left: 36px;
   padding-right: 35px;
@@ -63,12 +63,12 @@
 }
 
 .destination-card--large .destination-card__overlay {
-  left: 32px;
-  bottom: 32px;
+  left: 2rem;
+  bottom: 2rem;
 }
 
 .destination-card--large .destination-card__name {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   padding-bottom: 16px;
 }
@@ -151,8 +151,8 @@
   }
 
   .destination-card__overlay {
-    left: 32px;
-    bottom: 64px;
+    left: 2rem;
+    bottom: 4rem;
   }
   .destinations__pagination {
     position: absolute;

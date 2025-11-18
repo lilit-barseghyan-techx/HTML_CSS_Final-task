@@ -1,7 +1,7 @@
 .featured-listing__container {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 
 .featured-listing__grid {
@@ -17,7 +17,6 @@
   letter-spacing: 0;
   margin-bottom: 2rem;
   text-align: center;
-  flex-wrap: wrap;
 }
 
 .listing-card-wrapper {
@@ -72,7 +71,6 @@
   font-weight: 400;
   padding: 0.3rem 0.9rem;
   border-radius: 4px;
-  border: 1px;
   font-size: 10px;
 }
 
@@ -108,7 +106,7 @@
 
 .listing-card__content {
   padding-top: 15px;
-  padding: 14.5px;
+  padding: 15px;
   text-align: left;
   padding-bottom: 0px;
 }
@@ -216,7 +214,7 @@
 
 .listing-card__btn img {
   width: 14px;
-  height: 12.06px;
+  height: 12px;
   transition: filter 0.3s ease;
 }
 
@@ -225,7 +223,7 @@
 }
 
 .listing-pagination {
-  margin: 32px 0 32px 0;
+  margin: 2rem 0 2rem 0;
   display: flex;
   justify-content: center;
   gap: 0.5rem;

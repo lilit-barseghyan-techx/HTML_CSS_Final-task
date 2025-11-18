@@ -25,10 +25,10 @@
 }
 
 .claim-address__title {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
   color: var(--light_black);
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .claim-address__form {
@@ -57,8 +57,7 @@
 }
 
 .claim-address__input-icon img {
-  width: 16px;
-  height: 22px;
+  width: 1rem;
 }
 
 .claim-address__input {
@@ -68,7 +67,7 @@
   border-radius: 25px;
   border: none;
   outline: none;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: var(--light_black);
 }
