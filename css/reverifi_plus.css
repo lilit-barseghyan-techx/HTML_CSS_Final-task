@@ -1,0 +1,117 @@
+.reverifi {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.reverifi__container {
+  width: 100%;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1440px;
+}
+
+.reverifi__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.reverifi__logo {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+
+.reverifi__logo-plus {
+  color: var(--light_green);
+  font-weight: 600;
+}
+
+.reverifi__description {
+  color: var(--light_black);
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  opacity: 50%;
+  font-weight: 400;
+  max-width: 500px;
+  padding-bottom: 2rem;
+}
+
+.button--reverifi-plus {
+  margin-top: 0;
+  background: var(--light_green);
+  width: 117px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+
+.reverifi__services {
+  flex: 1;
+  max-width: 549px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 64px 0px 64px;
+  row-gap: 33px;
+}
+
+.reverifi__service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  width: 100%;
+}
+
+.reverifi__service-icon {
+  width: 32px;
+  height: 28px;
+}
+
+.reverifi__service-name {
+  font-size: 0.95rem;
+  color: var(--light_black);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .reverifi {
+    padding: 36px 40px;
+    padding-top: 0px;
+  }
+
+  .reverifi__container {
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    gap: 40px;
+  }
+
+  .reverifi__left {
+    width: 100%;
+  }
+
+  .reverifi__services {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 0;
+  }
+
+  .reverifi__service-name {
+    font-size: 14px;
+  }
+}
